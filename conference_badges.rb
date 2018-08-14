@@ -8,7 +8,7 @@ def batch_badge_creator(arr)
   name_arr=[]
   count=0
   arr.each do |name|
-    name_arr[count]=badge_maker(name)
+    name_arr.push(badge_maker(name))
     count = count + 1
   end
 end
