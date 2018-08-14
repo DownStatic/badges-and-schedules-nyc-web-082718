@@ -11,6 +11,7 @@ def batch_badge_creator(arr)
     name_arr.push(badge_maker(name))
     count = count + 1
   end
+  return name_arr
 end
 
 def assign_rooms(speakers)
